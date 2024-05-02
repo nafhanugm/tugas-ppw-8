@@ -1,0 +1,139 @@
+.navbar-item-active {
+  color: #72aec8;
+}
+
+.navbar-item-active:hover {
+  color: #72aec8;
+}
+
+.navbar-item-active:focus {
+  color: #72aec8;
+}
+
+.navbar-item {
+  color: #717171;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 1s;
+  animation: ease-in-out;
+  animation-duration: 1s;
+}
+
+#icon-search:hover {
+  color: #72aec8;
+  cursor: pointer !important;
+}
+
+.navbar-item:hover {
+  color: #72aec8;
+  cursor: pointer !important;
+}
+
+.navbar-item:focus {
+  color: #72aec8;
+  cursor: pointer !important;
+}
+
+#swiperarrow {
+  height: 150px;
+  width: 150px;
+  fill: #d7dddf;
+}
+
+#swiperarrow:hover {
+  fill: #72aec8;
+}
+
+:root {
+  --primary: #72aec8;
+}
+
+.addToCart {
+  bottom: 15%;
+  width: 100%;
+}
+
+#addToCart {
+  display: flex;
+  opacity: 0;
+
+  /* muncul dari bawah dengan transisi */
+  transition: transform 1s ease;
+
+  /* transisi dari bawah */
+  transform: translateY(50%);
+}
+
+#product1:hover #addToCart {
+  display: flex;
+  opacity: 1;
+  /* muncul dari bawah dengan transisi */
+  transition: transform 1s ease;
+
+  /* transisi dari bawah */
+  transform: translateY(0%);
+}
+
+.btn-addto {
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.btn-addto:hover {
+  background-color: #72aec8;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-addto:focus {
+  background-color: #72aec8;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+.icon-nav {
+  height: 18px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.btn-custom {
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.icon-service {
+  height: 26px;
+  width: 26px;
+  fill: #72aec8;
+}
+
+.icon-products {
+  height: 16px;
+  width: 16px;
+  fill: white;
+  margin-left: 3px;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 21px;
+}
+
+.product-price {
+  font-size: 21px;
+  color: #72aec8;
+}
+
+.text-accent {
+  color: #aeaeae;
+}
